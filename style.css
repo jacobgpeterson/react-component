@@ -1,0 +1,55 @@
+html, body {
+	height:auto;
+	width:100%;
+}
+header {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	height:65px;
+
+}
+.medium{
+	align-self:flex-start;
+	font-weight: 400;
+	font-size: 30px;
+}
+.label{
+	align-self:center;
+}
+.labelimg {
+	height:44px;
+	width:44px;
+	background: grey;
+	float:left;
+}
+.labeltext {
+	float:left;
+}
+.labeltext:p:first-child {
+	color: #BABABA;
+}
+.headerright{
+	align-self:flex-end;
+}
+.search {
+	height:44px;
+	width:44px;
+	border:1px solid black;
+	border-radius: 50%;
+	float:left;
+}
+.sign_in {
+	height: 44px;
+	width:98px;
+	border:1px solid green;
+	float:left;
+	border-radius: 999em;
+}
+.image {
+	width:100%;
+	min-width: 100%;
+	margin:0 auto;
+	background-size: cover;
+}
+
